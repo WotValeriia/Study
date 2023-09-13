@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100%;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+nav button {
+    cursor: pointer;
+    border: 0.1px solid #3498db;
+    background-color: transparent;
+    height: 70px;
+    width: 200px;
+    color: #3498db;
+    font-size: 1.5em;
+}
+
+.menu {
+    display: flex;
+    position: relative;
+}
+
+.menu-btn {
+    position: absolute;
+    left: 10px;
+}
+
+.menu ul li {
+    list-style: none;
+    padding: 14px;
+    position: relative;
+    transition: 0.5s;
+    display: block;
+}
+
+.themes {
+    display: none;
+    position: absolute;
+    left: 10px;
+    background-color: #f1f1f1;
+    padding: 10px;
+    list-style-type: none;
+}
+
+.menu-btn:focus+.themes,
+.themes:focus {
+    display: block;
+}
+
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 2000px;
+    height: 1100px;
+
+}
+
+.container1 {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: center;
+    width: 800px;
+    height: 1100px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.container1 img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
+.container1 img:hover {
+    transform: scale(1.2);
+}
+
+
+.container2 {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 10px;
+    width: 1000px;
+    height: 1100px;
+}
+
+
+.container2 div img {
+    display: flex;
+    object-fit: cover;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-left: 10px
+}
+
+.icon {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    filter: grayscale(1);
+    transition: 1s;
+}
+
+.icon:hover {
+    filter: grayscale(0);
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}

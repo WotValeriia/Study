@@ -1,0 +1,103 @@
+.navigation {
+    display: flex;
+    justify-content: center;
+    background-color: gainsboro;
+}
+
+.navigation p {
+    float: center;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.main_flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 650px;
+}
+
+.main_area {
+    display: flex;
+    flex: 60%;
+    flex-direction: row;
+    height: 650px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: rgb(247, 245, 152);
+}
+
+.extra1 {
+    display: flex;
+    flex: 2;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.extra {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row;
+    flex-wrap: wrap;
+    width: 1200px;
+}
+
+.extra p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 100px;
+    background-color: rgb(243, 218, 109);
+
+
+}
+
+.box {
+    display: flex;
+    width: 300px;
+
+
+}
+
+.box1 {
+    display: flex;
+    width: 900px;
+
+}
+
+
+.Side_area {
+    display: flex;
+    flex: 40%;
+    flex-direction: row;
+    background-color: rgb(128, 206, 128);
+    height: 650px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    background-color: rgb(185, 185, 185);
+    height: 150px;
+
+}
+
+.footer-container p {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+    background-color: aliceblue;
+    height: 100px;
+}
